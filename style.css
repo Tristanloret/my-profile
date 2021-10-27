@@ -1,0 +1,81 @@
+body {
+	background-color:white;
+	 color: rgb(30, 30, 30);
+	 font-family: 'Montserra';
+
+
+}
+h1, h2, h3 {
+   font-family: 'Roboto', sans-serif;
+}
+h1{
+	color: black;
+	font-weight: bolder;
+	letter-spacing: 1px;
+	font-size: 50px;
+}
+h2{
+	color:#79B4B7;
+	font-size: 24px;
+	font-weight: bolder;
+}
+a{
+	text-decoration: none;
+	color: ##000000;
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+}
+a:hover {
+	color: black;
+}
+
+/*Custom design with class*/
+.container{
+width: 1000px;
+margin: auto;
+padding: 10px;
+}
+.card-white{
+	background-color: white;
+	padding: 100px
+	box-shadow:0px 10px 30px rgba(0,0,0,0.1);
+	border-radius: 5%;
+	margin:20px 10px;
+	text-align: center;
+	padding:20px;
+}
+
+.img-circle {
+	border-radius: 50%;
+}
+.btn-blue {
+background-color: #FCE8E6; 
+color: white;
+border-radius: 5px;
+padding:10px;
+}
+.btn-blue:hover {
+	background-color:#E2E2E2;
+	color: white;
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+.list-inline li{
+	display: inline;
+	padding: 10px;
+  }
+.list-inline i{
+	font-size: 50px;
+	color: rgb(230, 230, 230);
+}
+.list-inline i:hover {
+	color: black;
+}
+
+#introduction p:{
+	margin-bottom: 40px;
+}
+
